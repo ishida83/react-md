@@ -386,6 +386,8 @@ export default class NavigationDrawer extends PureComponent {
      * The drawer type to use for mobile devices.
      */
     mobileDrawerType: PropTypes.oneOf([
+      DrawerTypes.PERSISTENT,
+      DrawerTypes.PERSISTENT_MINI,
       DrawerTypes.TEMPORARY,
       DrawerTypes.TEMPORARY_MINI,
     ]).isRequired,

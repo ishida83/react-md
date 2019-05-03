@@ -138,6 +138,8 @@ export default class Drawer extends PureComponent {
      * media query.
      */
     mobileType: PropTypes.oneOf([
+      Drawer.DrawerTypes.PERSISTENT,
+      Drawer.DrawerTypes.PERSISTENT_MINI,
       Drawer.DrawerTypes.TEMPORARY,
       Drawer.DrawerTypes.TEMPORARY_MINI,
     ]).isRequired,
